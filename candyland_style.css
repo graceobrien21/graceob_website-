@@ -1,0 +1,41 @@
+@charset "utf-8";
+	/* CSS Document */
+	
+	body {
+		
+		
+			nav{width: 150px; 
+		}
+		li a {
+		
+				display: inline-block;
+			opacity: 0.6;
+
+				padding: 0px ;
+				text-decoration: none;
+				 text-align: center;
+				letter-spacing: 1px;
+				margin: 0px ;
+				color: black;
+				width: 150px;
+transition-property: background-color; 
+transition-duration: 1s;
+			}
+a.rollover {
+	width: 174px; 
+	background: image(gumdrops1.png);
+}
+a.rollover:hover {image-position: -150px;}
+		li {
+			
+  display: inline;
+}
+		li a:hover {background-color: hotpink; color: white}
+		
+		audio {
+  float: right;
+  margin-top:0; margin-right: auto;
+}
+		Table_01 {
+  border-collapse: collapse;
+}
